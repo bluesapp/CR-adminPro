@@ -7,6 +7,9 @@ import { AppRoutingModule } from './app.routes';
 // Modulos
 import { PagesModule } from './pages/pages.module'
 
+// Servicios
+import { ServiceModule } from './services/service.module';
+
 // Componentes
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -25,7 +28,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
